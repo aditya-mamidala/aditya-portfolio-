@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aditya | Cybersecurity Portfolio</title>
+
+    <meta name="description"
+          content="Aditya - B.Tech CSE Student and Cybersecurity Learner. Explore my projects, skills and technical journey.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #05070d;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        /* Animated Grid Background */
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background:
+                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+            background-size: 45px 45px;
+            pointer-events: none;
+            z-index: -2;
+        }
+
+        /* Background Glow */
+        .glow {
+            position: fixed;
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            background: rgba(0, 255, 170, 0.08);
+            filter: blur(90px);
+            z-index: -1;
+            animation: floatGlow 8s infinite alternate ease-in-out;
+        }
+
+        .glow.one {
+            top: 5%;
+            left: 5%;
+        }
+
+        .glow.two {
+            right: 5%;
+            bottom: 10%;
+            animation-delay: 2s;
+        }
+
+        @keyframes floatGlow {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(80px, -50px);
+            }
+        }
+
+        /* NAVBAR */
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(5, 7, 13, 0.75);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #00ffaa;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ffaa;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 20px 60px;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            animation: fadeUp 1.2s ease;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 8px 16px;
+            border: 1px solid rgba(0,255,170,0.3);
+            border-radius: 50px;
+            color: #00ffaa;
+            font-size: 13px;
+            margin-bottom: 25px;
+            background: rgba(0,255,170,0.04);
+        }
+
+        .status::before {
+            content: "●";
+            margin-right: 8px;
+            animation: blink 1.2s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.2;
+            }
+        }
+
+        h1 {
+            font-size: clamp(45px, 8vw, 90px);
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #00ffaa;
+            text-shadow: 0 0 30px rgba(0,255,170,0.3);
+        }
+
+        .typing {
+            font-size: clamp(18px, 3vw, 28px);
+            color: #aaa;
+            min-height: 40px;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            max-width: 650px;
+            margin: auto;
+            color: #8c8c96;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .buttons {
+            margin-top: 35px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 13px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .primary {
+            background: #00ffaa;
+            color: #03110b;
+        }
+
+        .secondary {
+            border: 1px solid #333;
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0,255,170,0.15);
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 100px 8%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #777;
+        }
+
+        /* ABOUT */
+
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about-text p {
+            color: #999;
+            line-height: 1.9;
+            margin-bottom: 20px;
+        }
+
+        /* TERMINAL */
+
+        .terminal {
+            background: #090c12;
+            border: 1px solid #1c222d;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .terminal-header {
+            padding: 12px;
+            background: #11151d;
+            color: #777;
+            font-size: 13px;
+        }
+
+        .terminal-body {
+            padding: 25px;
+            font-family: monospace;
+            line-height: 2;
+            color: #00ffaa;
+        }
+
+        .terminal-body span {
+            color: #777;
+        }
+
+        /* SKILLS */
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            padding: 25px;
+            background: rgba(255,255,255,0.025);
+            border: 1px solid #1c222d;
+            border-radius: 12px;
+            transition: 0.35s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(0,255,170,0.4);
+            box-shadow: 0 15px 40px rgba(0,255,170,0.08);
+        }
+
+        .skill-card h3 {
+            margin-bottom: 12px;
+        }
+
+        .skill-card p {
+            color: #777;
+            line-height: 1.7;
+            font-size: 14px;
+        }
+
+        /* PROJECTS */
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            padding: 28px;
+            border: 1px solid #1c222d;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.025);
+            transition: 0.35s;
+        }
+
+        .project:hover {
+            transform: translateY(-8px);
+            border-color: rgba(0,255,170,0.4);
+            box-shadow: 0 15px 40px rgba(0,255,170,0.08);
+        }
+
+        .project-number {
+            color: #00ffaa;
+            font-family: monospace;
+            margin-bottom: 15px;
+        }
+
+        .project h3 {
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            color: #777;
+            line-height: 1.7;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            font-size: 11px;
+            padding: 6px 10px;
+            border-radius: 20px;
+            background: rgba(0,255,170,0.06);
+            color: #00ffaa;
+        }
+
+        /* LEARNING */
+
+        .learning-box {
+            border: 1px solid #1c222d;
+            border-radius: 14px;
+            padding: 35px;
+            background: rgba(255,255,255,0.025);
+        }
+
+        .learning-box > p {
+            color: #999;
+            line-height: 1.8;
+        }
+
+        .learning-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .learning-item {
+            padding: 15px;
+            border-left: 2px solid #00ffaa;
+            background: rgba(0,255,170,0.025);
+            color: #aaa;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            max-width: 600px;
+            margin: auto;
+            color: #777;
+            line-height: 1.8;
+        }
+
+        .socials {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .socials a {
+            padding: 12px 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .socials a:hover {
+            border-color: #00ffaa;
+            color: #00ffaa;
+            transform: translateY(-3px);
+        }
+
+        /* FOOTER */
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #161a22;
+            color: #555;
+            font-size: 13px;
+        }
+
+        /* ANIMATION */
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            nav ul {
+                display: none;
+            }
+
+            .about {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 75px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="glow one"></div>
+<div class="glow two"></div>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <div class="logo">
+        ADITYA<span>.</span>
+    </div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#learning">Learning</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- HERO -->
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <div class="status">
+            Open to Cybersecurity Opportunities
+        </div>
+
+        <h1>
+            Hi, I'm <span>Aditya</span>
+        </h1>
+
+        <div class="typing" id="typing"></div>
+
+        <p class="description">
+            B.Tech Computer Science student passionate about
+            cybersecurity, networking, Linux and Python.
+            I learn by building practical projects and continuously
+            improving my technical skills.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projects" class="btn primary">
+                View Projects
+            </a>
+
+            <a href="https://github.com/aditya-mamidala"
+               target="_blank"
+               class="btn secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <div class="section-title">
+
+        <h2>About Me</h2>
+
+        <p>
+            Learning. Building. Securing.
+        </p>
+
+    </div>
+
+
+    <div class="about">
+
+        <div class="about-text">
+
+            <p>
+                I'm a B.Tech Computer Science and Engineering student
+                with a strong interest in cybersecurity and technology.
+            </p>
+
+            <p>
+                My current focus is developing practical skills in
+                Python, networking, Linux and cybersecurity fundamentals.
+            </p>
+
+            <p>
+                I enjoy exploring new technologies, building projects,
+                solving technical problems and learning through
+                hands-on experimentation.
+            </p>
+
+        </div>
+
+
+        <div class="terminal">
+
+            <div class="terminal-header">
+                aditya@portfolio: ~
+            </div>
+
+            <div class="terminal-body">
+
+                $ whoami<br>
+
+                <span>>></span> B.Tech CSE Student<br>
+
+                $ focus<br>
+
+                <span>>></span> Cybersecurity<br>
+
+                $ skills<br>
+
+                <span>>></span> Python | Linux | Networking<br>
+
+                $ status<br>
+
+                <span>>></span> Learning & Building...
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <div class="section-title">
+
+        <h2>Technical Skills</h2>
+
+        <p>
+            Technologies I'm learning and working with
+        </p>
+
+    </div>
+
+
+    <div class="skills">
+
+        <div class="skill-card">
+
+            <h3>🔐 Cybersecurity</h3>
+
+            <p>
+                Cybersecurity fundamentals, information security,
+                security concepts and practical security learning.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>🐍 Programming</h3>
+
+            <p>
+                Python, C and Java with focus on programming
+                fundamentals and problem solving.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>🌐 Networking</h3>
+
+            <p>
+                Computer networking, TCP/IP fundamentals,
+                network communication and troubleshooting.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>🐧 Linux</h3>
+
+            <p>
+                Linux fundamentals, command line usage and
+                exploring Kali Linux for cybersecurity learning.
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>⚙️ Tools</h3>
+
+            <p>
+                Git, GitHub, VS Code and other development tools.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <div class="section-title">
+
+        <h2>Featured Projects</h2>
+
+        <p>
+            Things I've built and explored
+        </p>
+
+    </div>
+
+
+    <div class="projects">
+
+
+        <!-- PROJECT 1 -->
+
+        <div class="project">
+
+            <div class="project-number">
+                01 / PROJECT
+            </div>
+
+            <h3>
+                Face Recognition Attendance System
+            </h3>
+
+            <p>
+                A Python and OpenCV based project designed
+                to automate attendance using face recognition.
+            </p>
+
+            <div class="tags">
+
+                <span class="tag">Python</span>
+
+                <span class="tag">OpenCV</span>
+
+                <span class="tag">Computer Vision</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+
+        <div class="project">
+
+            <div class="project-number">
+                02 / PROJECT
+            </div>
+
+            <h3>
+                Cybersecurity Projects
+            </h3>
+
+            <p>
+                Practical cybersecurity and networking projects
+                created while learning security concepts,
+                Linux and networking.
+            </p>
+
+            <div class="tags">
+
+                <span class="tag">Cybersecurity</span>
+
+                <span class="tag">Linux</span>
+
+                <span class="tag">Networking</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+
+        <div class="project">
+
+            <div class="project-number">
+                03 / PROJECT
+            </div>
+
+            <h3>
+                Python Projects
+            </h3>
+
+            <p>
+                A collection of Python projects focused on
+                programming fundamentals, automation and
+                problem solving.
+            </p>
+
+            <div class="tags">
+
+                <span class="tag">Python</span>
+
+                <span class="tag">Programming</span>
+
+                <span class="tag">Git</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- LEARNING -->
+
+<section id="learning">
+
+    <div class="section-title">
+
+        <h2>Currently Learning</h2>
+
+        <p>
+            My continuous learning journey
+        </p>
+
+    </div>
+
+
+    <div class="learning-box">
+
+        <p>
+            I'm continuously improving my technical foundation
+            and exploring cybersecurity through practical learning.
+        </p>
+
+
+        <div class="learning-list">
+
+            <div class="learning-item">
+                Cybersecurity Fundamentals
+            </div>
+
+            <div class="learning-item">
+                Network Security
+            </div>
+
+            <div class="learning-item">
+                Python
+            </div>
+
+            <div class="learning-item">
+                Linux
+            </div>
+
+            <div class="learning-item">
+                Computer Networking
+            </div>
+
+            <div class="learning-item">
+                Git & GitHub
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <div class="contact">
+
+        <div class="section-title">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                Interested in technology, cybersecurity
+                and collaboration?
+            </p>
+
+        </div>
+
+
+        <p>
+            I'm interested in connecting with cybersecurity
+            professionals, developers, recruiters and fellow learners.
+        </p>
+
+
+        <div class="socials">
+
+            <!-- YOUR GITHUB -->
+
+            <a href="https://github.com/aditya-mamidala"
+               target="_blank">
+                GitHub
+            </a>
+
+
+            <!-- YOUR LINKEDIN -->
+
+            <a href="https://www.linkedin.com/in/aditya-mamidala-487410428"
+               target="_blank">
+                LinkedIn
+            </a>
+
+
+            <!-- YOUR EMAIL -->
+
+            <a href="mailto:adhiii222005@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    © 2026 Aditya • Cybersecurity Portfolio
+
+</footer>
+
+
+<!-- TYPING ANIMATION -->
+
+<script>
+
+const texts = [
+
+    "Cybersecurity Learner",
+    "B.Tech CSE Student",
+    "Python Developer",
+    "Networking Enthusiast",
+    "Linux Explorer"
+
+];
+
+let textIndex = 0;
+
+let charIndex = 0;
+
+let deleting = false;
+
+const typingElement =
+    document.getElementById("typing");
+
+
+function typeEffect() {
+
+    const currentText =
+        texts[textIndex];
+
+
+    if (!deleting) {
+
+        typingElement.textContent =
+            currentText.substring(
+                0,
+                charIndex + 1
+            );
+
+        charIndex++;
+
+
+        if (charIndex === currentText.length) {
+
+            deleting = true;
+
+            setTimeout(
+                typeEffect,
+                1500
+            );
+
+            return;
+
+        }
+
+    }
+
+    else {
+
+        typingElement.textContent =
+            currentText.substring(
+                0,
+                charIndex - 1
+            );
+
+        charIndex--;
+
+
+        if (charIndex === 0) {
+
+            deleting = false;
+
+            textIndex++;
+
+            if (textIndex === texts.length) {
+
+                textIndex = 0;
+
+            }
+
+        }
+
+    }
+
+
+    setTimeout(
+        typeEffect,
+        deleting
