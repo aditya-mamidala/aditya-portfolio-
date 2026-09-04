@@ -1,49 +1,52 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=230&section=header&text=ADITYA%20MAMIDALA&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=B.Tech%20CSE%20Student%20%7C%20Cybersecurity%20Learner&descSize=20&descAlignY=58" width="100%"/>
+# ADITYA MAMIDALA
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=00E5FF&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub+Profile+👋;Cybersecurity+%7C+Networking+%7C+Linux+🔐;Python+%7C+C+%7C+Java+💻;Learning+%7C+Building+%7C+Growing+🚀" />
+### B.Tech Computer Science Engineering Student
+#### Cybersecurity • Networking • Linux • Software Development
 
-<br><br>
+<br>
 
-<img src="https://img.shields.io/badge/🎓%20B.Tech%20CSE-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🔐%20Cybersecurity-00C6FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/💻%20Developer-FF4ECD?style=for-the-badge"/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=flat-square&logo=googlechrome&logoColor=white)](https://aditya-mamidala.github.io/aditya-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-mamidala-487410428/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-111827?style=flat-square&logo=github&logoColor=white)](https://github.com/aditya-mamidala)
 
 </div>
+
+<br>
 
 ---
 
 <div align="center">
 
-# 🌈 ABOUT ME
+## PROFILE
 
 </div>
 
 <table>
 <tr>
-<td width="65%" bgcolor="#161B22">
+<td width="65%" valign="top">
 
-### 👨‍💻 Who Am I?
+### 👨‍💻 About Me
 
-I'm **Aditya**, a B.Tech Computer Science Engineering student passionate about **Cybersecurity, Networking, Linux and Software Development**.
+I'm a **B.Tech Computer Science Engineering student** developing my skills across **cybersecurity, networking, Linux, programming, and web development**.
 
-I enjoy learning technology through practical projects and hands-on experimentation.
+I believe in learning by building. My current focus is on strengthening my programming fundamentals, understanding computer networks and operating systems, and developing practical cybersecurity knowledge.
 
-My goal is to continuously improve my technical skills and build meaningful projects that solve real-world problems.
+I'm continuously working on projects that help me turn theoretical knowledge into practical skills.
 
 </td>
 
-<td width="35%" align="center" bgcolor="#0D1117">
+<td width="35%" valign="top">
 
-### 🎯 MY FOCUS
+### CURRENT FOCUS
 
 🔐 Cybersecurity  
 🌐 Networking  
 🐧 Linux  
-💻 Programming  
-🚀 Projects  
-📚 Continuous Learning  
+🐍 Python  
+☕ Java  
+💻 Web Development  
 
 </td>
 </tr>
@@ -55,133 +58,122 @@ My goal is to continuously improve my technical skills and build meaningful proj
 
 <div align="center">
 
-# 🛠️ TECHNICAL SKILLS
-
-</div>
-
-<table align="center">
-<tr>
-
-<td align="center" width="25%">
-
-### 🐍
-
-## Programming
-
-<img src="https://skillicons.dev/icons?i=python,c,java" />
-
-</td>
-
-<td align="center" width="25%">
-
-### 🌐
-
-## Web
-
-<img src="https://skillicons.dev/icons?i=html,css,js" />
-
-</td>
-
-<td align="center" width="25%">
-
-### 🐧
-
-## Systems
-
-<img src="https://skillicons.dev/icons?i=linux,kali" />
-
-</td>
-
-<td align="center" width="25%">
-
-### ⚙️
-
-## Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-Expertise%20in%20Progress-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C-Programming-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
-<img src="https://img.shields.io/badge/Java-Programming-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-System%20Learning-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-
-</div>
-
----
-
-<div align="center">
-
-# 🚀 FEATURED PROJECTS
+## TECHNICAL SKILLS
 
 </div>
 
 <table>
 <tr>
 
-<td width="50%" bgcolor="#111827">
+<td align="center" width="25%">
 
-<div align="center">
-
-## 🔐 Face Recognition
-## Attendance System
-
-</div>
-
-Computer vision based attendance system designed to automate attendance using face recognition technology.
+### PROGRAMMING
 
 <br>
 
-**Technology**
+<img src="https://skillicons.dev/icons?i=python,c,java&perline=3" />
+
+<br><br>
+
+`Python` · `C` · `Java`
+
+</td>
+
+<td align="center" width="25%">
+
+### WEB
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=html,css,js&perline=3" />
+
+<br><br>
+
+`HTML` · `CSS` · `JavaScript`
+
+</td>
+
+<td align="center" width="25%">
+
+### SYSTEMS
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=linux,kali&perline=3" />
+
+<br><br>
+
+`Linux` · `Kali Linux`
+
+</td>
+
+<td align="center" width="25%">
+
+### TOOLS
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode&perline=3" />
+
+<br><br>
+
+`Git` · `GitHub` · `VS Code`
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+
+## SELECTED PROJECTS
+
+</div>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Face Recognition Attendance System
+
+A computer-vision based attendance system designed to automate attendance using face recognition technology.
+
+**Core Technologies**
 
 `Python` `OpenCV` `Computer Vision`
 
+**Focus**
+
+Automation · Computer Vision · Attendance Management
+
 <br>
 
-<div align="center">
-
-<a href="https://github.com/aditya-mamidala">
-<img src="https://img.shields.io/badge/🔎%20View%20Project-6C63FF?style=for-the-badge"/>
-</a>
-
-</div>
+[**View Project →**](https://github.com/aditya-mamidala)
 
 </td>
 
-<td width="50%" bgcolor="#111827">
+<td width="50%" valign="top">
 
-<div align="center">
+### Personal Portfolio
 
-## 🌐 Personal
-## Portfolio
+A responsive portfolio website created to showcase my technical skills, projects, learning journey and achievements.
 
-</div>
+**Core Technologies**
 
-A responsive portfolio website showcasing my skills, projects, achievements and cybersecurity journey.
+`HTML` `CSS` `JavaScript`
 
-<br>
+**Deployment**
 
-**Technology**
-
-`HTML` `CSS` `JavaScript` `GitHub Pages`
+GitHub Pages
 
 <br>
 
-<div align="center">
-
-<a href="https://aditya-mamidala.github.io/aditya-portfolio/">
-<img src="https://img.shields.io/badge/🚀%20Live%20Portfolio-00C6FF?style=for-the-badge"/>
-</a>
-
-</div>
+[**View Live Portfolio →**](https://aditya-mamidala.github.io/aditya-portfolio/)
 
 </td>
 
@@ -194,48 +186,130 @@ A responsive portfolio website showcasing my skills, projects, achievements and 
 
 <div align="center">
 
-# 🔐 CYBERSECURITY JOURNEY
+## CYBERSECURITY
+
+</div>
+
+<table>
+<tr>
+
+<td width="33%" align="center">
+
+### 🔐 SECURITY
+
+Cybersecurity Fundamentals
+
+<br>
+
+Security Concepts
+
+<br>
+
+Cyber Defense
+
+</td>
+
+<td width="33%" align="center">
+
+### 🌐 NETWORKING
+
+Networking Fundamentals
+
+<br>
+
+Network Security
+
+<br>
+
+Linux Networking
+
+</td>
+
+<td width="33%" align="center">
+
+### 🐧 SYSTEMS
+
+Linux
+
+<br>
+
+Kali Linux
+
+<br>
+
+System Fundamentals
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+
+## CURRENTLY LEARNING
+
+<br>
+
+<img src="https://img.shields.io/badge/Cybersecurity-7C3AED?style=flat-square&logo=hackthebox&logoColor=white"/>
+<img src="https://img.shields.io/badge/Networking-2563EB?style=flat-square&logo=cisco&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-F59E0B?style=flat-square&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white"/>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## GITHUB OVERVIEW
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=aditya-mamidala&show_icons=true&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=D1D5DB&icon_color=8B5CF6" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-mamidala&layout=compact&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=D1D5DB" width="40%"/>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## CAREER DIRECTION
 
 <table>
 <tr>
 
 <td align="center">
 
-🔐
-<br>
-<b>Cybersecurity</b>
-<br>
-<sub>Security Fundamentals</sub>
+**CYBERSECURITY**
+
+Security & Defense
 
 </td>
 
 <td align="center">
 
-🌐
-<br>
-<b>Networking</b>
-<br>
-<sub>Network Fundamentals</sub>
+**NETWORK SECURITY**
+
+Networks & Infrastructure
 
 </td>
 
 <td align="center">
 
-🐧
-<br>
-<b>Linux</b>
-<br>
-<sub>Kali Linux</sub>
+**SYSTEMS**
 
-</td>
-
-<td align="center">
-
-🛡️
-<br>
-<b>Security</b>
-<br>
-<sub>Cyber Defense</sub>
+Linux & Security
 
 </td>
 
@@ -244,111 +318,44 @@ A responsive portfolio website showcasing my skills, projects, achievements and 
 
 </div>
 
----
-
-<div align="center">
-
-# 📚 CURRENTLY LEARNING
-
 <br>
-
-<img src="https://img.shields.io/badge/🔐%20Cybersecurity-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🌐%20Networking-00C6FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🐧%20Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/🐍%20Python-3776AB?style=for-the-badge&logo=python"/>
-<img src="https://img.shields.io/badge/☕%20Java-ED8B00?style=for-the-badge&logo=openjdk"/>
-
-</div>
 
 ---
 
 <div align="center">
 
-# 📊 GITHUB ANALYTICS
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=aditya-mamidala&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=6C63FF&text_color=FFFFFF" width="48%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya-mamidala&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF4ECD&text_color=FFFFFF" width="42%"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=aditya-mamidala&theme=tokyonight&hide_border=true&background=0D1117&ring=FF4ECD&fire=00E5FF&currStreakLabel=00E5FF"/>
-
-</div>
-
----
-
-<div align="center">
-
-# 🎯 CAREER INTERESTS
-
-<br>
-
-<table>
-<tr>
-
-<td align="center">🔐<br><b>Cybersecurity</b></td>
-<td align="center">🛡️<br><b>Cyber Defense</b></td>
-<td align="center">🌐<br><b>Network Security</b></td>
-<td align="center">🐧<br><b>Linux Security</b></td>
-
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-# 🌐 CONNECT WITH ME
+## CONNECT
 
 <br>
 
 <a href="https://www.linkedin.com/in/aditya-mamidala-487410428/">
-<img src="https://img.shields.io/badge/LinkedIn-Professional%20Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Professional%20Profile-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<br><br>
-
-<a href="https://github.com/aditya-mamidala">
-<img src="https://img.shields.io/badge/GitHub-My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br><br>
+&nbsp;&nbsp;
 
 <a href="https://aditya-mamidala.github.io/aditya-portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Website-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<img src="https://img.shields.io/badge/Portfolio-Explore%20My%20Work-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
-<br><br>
+&nbsp;&nbsp;
 
-<a href="https://instagram.com/arv_aadhi">
-<img src="https://img.shields.io/badge/Instagram-@arv__aadhi-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+<a href="https://github.com/aditya-mamidala">
+<img src="https://img.shields.io/badge/GitHub-View%20My%20Code-111827?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
 
----
+<br>
 
 <div align="center">
 
-## 💭 My Philosophy
+---
 
-### **"Learn. Build. Secure. Grow."** 🚀
+### Building skills today. Securing technology tomorrow.
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=aditya-mamidala&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS"/>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=130&section=footer" width="100%"/>
+<img src="https://komarev.com/ghpvc/?username=aditya-mamidala&style=flat-square&color=7C3AED&label=PROFILE+VIEWS"/>
 
 </div>
