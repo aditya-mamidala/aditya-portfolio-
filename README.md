@@ -1,92 +1,90 @@
 <div align="center">
 
-# 👋 Hi, I'm Aditya
+# ADITYA MAMIDALA
 
-### B.Tech CSE Student • Cybersecurity Learner • Technology Enthusiast
+### B.Tech Computer Science Engineering Student
+**Cybersecurity • Networking • Linux • Software Development**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Cybersecurity+Learner;Python+%7C+C+%7C+Java;Linux+%7C+Networking;Building+%26+Learning+Every+Day+🚀" alt="Typing SVG" />
-
-<br/>
+<br>
 
 <a href="https://github.com/aditya-mamidala">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
 </a>
+&nbsp;
 <a href="https://www.linkedin.com/in/aditya-mamidala-487410428/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white">
 </a>
-<a href="https://instagram.com/arv_aadhi">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+&nbsp;
+<a href="https://aditya-mamidala.github.io/aditya-portfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-58A6FF?style=flat-square&logo=googlechrome&logoColor=white">
 </a>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-I'm a **B.Tech Computer Science Engineering student** with a growing interest in **Cybersecurity, Networking, Linux, and Software Development**.
+I am a **Computer Science Engineering student** building a strong foundation in
+**cybersecurity, networking, Linux, and software development**.
 
-I enjoy learning by building practical projects and exploring how technology works behind the scenes.
+I enjoy learning through practical projects, experimenting with new technologies,
+and understanding how systems work from both development and security perspectives.
 
-- 🎓 B.Tech CSE Student
-- 🔐 Cybersecurity Learner
-- 💻 Programming Enthusiast
-- 🐧 Linux & Networking Explorer
-- 🚀 Building projects and improving my skills
-- 🌱 Always learning something new
+Currently focused on strengthening my programming fundamentals and developing
+hands-on cybersecurity skills.
 
 ---
 
-## 🧰 Tech Stack
+## Technical Skills
 
-<div align="center">
-
-### Programming
-<img src="https://skillicons.dev/icons?i=python,c,java" />
-
-### Web Development
-<img src="https://skillicons.dev/icons?i=html,css,js" />
-
-### Cybersecurity & Systems
-<img src="https://skillicons.dev/icons?i=linux,kali" />
-
-### Tools
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
-
-</div>
+| Category | Technologies |
+|----------|--------------|
+| **Languages** | Python · C · Java |
+| **Web** | HTML · CSS · JavaScript |
+| **Security** | Cybersecurity Fundamentals · Security Concepts |
+| **Systems** | Linux · Kali Linux |
+| **Networking** | Networking Fundamentals |
+| **Tools** | Git · GitHub · VS Code |
 
 ---
 
-## 🚀 Featured Projects
+## Selected Projects
 
-### 🔐 Face Recognition Attendance System
+### Face Recognition Attendance System
 
-> A computer-vision based attendance system designed to automate attendance using face recognition.
+A computer-vision based application designed to automate attendance using
+face recognition technology.
 
-**Tech Stack:** `Python` `OpenCV` `Computer Vision`
-
-[![View Project](https://img.shields.io/badge/View_Project-21262D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aditya-mamidala)
-
----
-
-### 🌐 Personal Portfolio
-
-> A responsive portfolio website showcasing my skills, projects, learning journey and achievements.
-
-**Tech Stack:** `HTML` `CSS` `JavaScript` `GitHub Pages`
-
-[![Live Website](https://img.shields.io/badge/Live_Website-238636?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aditya-mamidala.github.io/aditya-portfolio/)
+**Focus:** Computer Vision · Automation · Python
 
 ---
 
-## 🔐 Cybersecurity Journey
+### Personal Portfolio
 
-I'm currently exploring:
+A responsive personal portfolio showcasing my technical skills, projects,
+learning journey, and achievements.
+
+**Built with:** HTML · CSS · JavaScript · GitHub Pages
+
+→ **[View Portfolio](https://aditya-mamidala.github.io/aditya-portfolio/)**
+
+---
+
+## Currently Learning
 
 ```text
-├── 🔐 Cybersecurity Fundamentals
-├── 🌐 Computer Networking
-├── 🐧 Linux & Kali Linux
-├── 🛡️ Network Security
-├── 🔎 Security Concepts
-└── 💻 Programming
+Cybersecurity
+├── Security Fundamentals
+├── Network Security
+└── Cyber Defense Concepts
+
+Systems
+├── Linux
+├── Kali Linux
+└── Networking
+
+Development
+├── Python
+├── Java
+└── Web Development
